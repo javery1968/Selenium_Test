@@ -1,0 +1,226 @@
+{
+  "id": "cc11f6c2-3ceb-4c2d-b0cd-20da79e0c86e",
+  "version": "2.0",
+  "name": "Amazon-Basics",
+  "url": "https://www.amazon.com",
+  "tests": [{
+    "id": "72b89bf1-ee45-4221-8c1a-1adbabf4e80e",
+    "name": "Amazon_Basics",
+    "commands": [{
+      "id": "e1dcb5c7-f6fe-45ca-ba3c-0b497e6dc03b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62e79531-2402-4b93-82d8-67106e696286",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1681x861",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5239e5df-e208-46dc-93aa-b5cc16892566",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Today's Deals",
+      "targets": [
+        ["linkText=Today's Deals", "linkText"],
+        ["css=#nav-xshop > .nav-a:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='nav-xshop']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gp/goldbox?ref_=nav_cs_gb_40dff72b654a4d9e977a0d06d9b4038f')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7938f79a-645d-44b0-8052-a8e52dc625ac",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Today's Deals",
+      "targets": [
+        ["linkText=Today's Deals", "linkText"],
+        ["css=#nav-xshop > .nav-a:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='nav-xshop']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gp/goldbox?ref_=nav_cs_gb_40dff72b654a4d9e977a0d06d9b4038f')]", "xpath:href"],
+        ["xpath=//div[4]/div[2]/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e249187-314d-4671-82f6-6b53a5940d9f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d15d619b-0d14-4273-9752-7fd870edfdbc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Available",
+      "targets": [
+        ["linkText=Available", "linkText"],
+        ["css=span:nth-child(1) > span > .a-row:nth-child(3) > .LinkFilterOption-module__linkFilterOption_k3Xp4bgxEaBmcgTA0UAxc", "css:finder"],
+        ["xpath=//div[@id='slot-15']/div/div/div[2]/div[2]/span/span/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[4]", "xpath:href"],
+        ["xpath=//span/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Available')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f90969e-7b9a-4c91-b1d9-e5ec7451e122",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Available",
+      "targets": [
+        ["linkText=Available", "linkText"],
+        ["css=span:nth-child(1) > span > .a-row:nth-child(3) > .LinkFilterOption-module__linkFilterOption_k3Xp4bgxEaBmcgTA0UAxc", "css:finder"],
+        ["xpath=//div[@id='slot-15']/div/div/div[2]/div[2]/span/span/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[4]", "xpath:href"],
+        ["xpath=//span/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Available')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6aba86c-33bf-44ab-9530-89902b51c919",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,487.5)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d90f9ec1-c11b-4f9f-b66c-6dbdbaf98e2c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.DealItem-module__dealItem_1ALQj-8DFdBjwNoMaYwM4P:nth-child(7) img",
+      "targets": [
+        ["css=.DealItem-module__dealItem_1ALQj-8DFdBjwNoMaYwM4P:nth-child(7) img", "css:finder"],
+        ["xpath=//img[@alt='Vont 2 Pack LED Camping Lantern, Super Bright Portable Survival Lanterns, Must Have During Hurricane, Emergency, Storms, O...']", "xpath:img"],
+        ["xpath=//div[@id='slot-15']/div/div/div[2]/div[3]/div/div[7]/div/div/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//div[7]/div/div/a/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffddc092-6484-407f-bdea-528748f1c735",
+      "comment": "",
+      "command": "click",
+      "target": "css=.CheckboxFilter-module__gridFilterOption_hdG5xZdR2ZvDkQKkl_d49:nth-child(3) .CheckboxFilter-module__checkboxLabel_21MUk0e7QdlZKH5Xcwap-F",
+      "targets": [
+        ["css=.CheckboxFilter-module__gridFilterOption_hdG5xZdR2ZvDkQKkl_d49:nth-child(3) .CheckboxFilter-module__checkboxLabel_21MUk0e7QdlZKH5Xcwap-F", "css:finder"],
+        ["xpath=//div[@id='slot-15']/div/div/div[2]/div[2]/span[3]/span/div[2]/div[3]/div/label/span", "xpath:idRelative"],
+        ["xpath=//div[3]/div/label/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e26fe61-a72f-4618-acb1-0cf8733d5ec7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Best Sellers",
+      "targets": [
+        ["linkText=Best Sellers", "linkText"],
+        ["css=#nav-xshop > .nav-a:nth-child(5)", "css:finder"],
+        ["xpath=//a[contains(text(),'Best Sellers')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/a[4]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gp/bestsellers/?ref_=nav_cs_bestsellers_8a080d3d7b55497ea1bdd97b7cff8b7b')]", "xpath:href"],
+        ["xpath=//div[2]/div/a[4]", "xpath:position"],
+        ["xpath=//a[contains(.,'Best Sellers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce873bc9-98b6-47b4-b69f-4adb2063b136",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Movers & Shakers",
+      "targets": [
+        ["linkText=Movers & Shakers", "linkText"],
+        ["css=li:nth-child(3) > .\\_p13n-zg-nav-tab-all_style_zg-tabs-li-div__1YdPR > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Movers & Shakers')]", "xpath:link"],
+        ["xpath=//div[@id='CardInstancewjrL8xESEF7eiyHWEVuoNA']/div/ul/li[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gp/movers-and-shakers/ref=zg_bs_tab')]", "xpath:href"],
+        ["xpath=//li[3]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Movers & Shakers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b876b5c-8465-49a9-981e-de1b270c34fc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Automotive",
+      "targets": [
+        ["linkText=Automotive", "linkText"],
+        ["css=#CardInstanceoOl5WBWRPIln-u9mtCswpA li:nth-child(7) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Automotive')])[2]", "xpath:link"],
+        ["xpath=//ul[@id='CardInstanceoOl5WBWRPIln-u9mtCswpA']/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Best-Sellers-Automotive/zgbs/automotive/ref=zg_bs_nav_0')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05eaa911-a360-429c-80a0-9754b6db3c55",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=RV Parts & Accessories",
+      "targets": [
+        ["linkText=RV Parts & Accessories", "linkText"],
+        ["css=ul > ul > li:nth-child(9) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'RV Parts & Accessories')]", "xpath:link"],
+        ["xpath=//ul[@id='zg_browseRoot']/ul/ul/li[9]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.amazon.com/Best-Sellers-Automotive-RV-Parts-Accessories/zgbs/automotive/2258019011/ref=zg_bs_nav_auto_1_auto')]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'RV Parts & Accessories')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6127ecd5-4af3-4fbb-b26b-a56b251fec28",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Power & Electrical",
+      "targets": [
+        ["linkText=Power & Electrical", "linkText"],
+        ["css=ul > ul > li:nth-child(8) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Power & Electrical')]", "xpath:link"],
+        ["xpath=//ul[@id='zg_browseRoot']/ul/ul/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.amazon.com/Best-Sellers-Automotive-RV-Power-Electrical-Supplies/zgbs/automotive/2258026011/ref=zg_bs_nav_auto_2_2258019011')]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Power & Electrical')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a3f1e78-32f6-4a79-9547-f8aff8eda6d2",
+      "comment": "",
+      "command": "click",
+      "target": "id=nav-logo-sprites",
+      "targets": [
+        ["id=nav-logo-sprites", "id"],
+        ["css=#nav-logo-sprites", "css:finder"],
+        ["xpath=//a[@id='nav-logo-sprites']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-logo']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ref=nav_logo')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19fe038c-9efc-4229-a781-880a7738ff1f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_cropped-image-link_style_fluidLandscapeImage__3eTVC",
+      "targets": [
+        ["css=.\\_cropped-image-link_style_fluidLandscapeImage__3eTVC", "css:finder"],
+        ["xpath=//img[@alt='Halo Band and Halo app. Text: Put bad sleep habits to bed. Halo logo, Works with Alexa.']", "xpath:img"],
+        ["xpath=//div[@id='bOanzgKHzcXjJUkt-ZOKAA']/a/div/img", "xpath:idRelative"],
+        ["xpath=//a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "69779b22-94d1-426f-911c-356cdfb4b173",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.amazon.com/"],
+  "plugins": []
+}
